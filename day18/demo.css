@@ -1,0 +1,36 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+.scroller
+{
+    width: 100%;
+    height: 200px;
+    border: 2px solid;
+}
+.scroller-track
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.logo
+{
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+  width: 30%;
+  height: 60vh;
+}
+.front {
+  background-image: url(https://cdn.kobo.com/book-images/179c31cf-2bc9-4f86-9fff-d45786ebf912/1200/1200/False/marvel-s-avengers-1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  transition: all 0.5s linear;
+  transform-origin: 0% 0%;
+}
+.back {
+  background-image: url(https://w0.peakpx.com/wallpaper/661/923/HD-wallpaper-chibi-spidey-spiderman-superheroes-digital-art-artwork-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  perspective: 1200px;
+  background-color: rgb(1, 32, 61);
+}
+.front:hover {
+  transform: rotateY(-180deg);
+}
